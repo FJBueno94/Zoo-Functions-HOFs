@@ -1,6 +1,4 @@
-const {
-  employees
-} = require('../data/zoo_data');
+const { employees } = require('../data/zoo_data');
 
 function isManager(id) {
   const manager = employees.some((employeesFind) =>
