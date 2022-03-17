@@ -9,7 +9,6 @@ function getAnimalsOlderThan(animal, age) {
     const verification = animalAgeFilter.age > age;
     return verification;
   });
-  console.log(verifyAge);
   if (verifyAge) {
     return true;
   }
